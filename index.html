@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="QuickKit Tools offers free, fast online calculators and text utilities. No sign-up required.">
+  <title>QuickKit Tools — Free Online Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="QuickKit Tools home"><span class="brand-mark">Q</span><span>quickkit<span class="brand-muted">.tools</span></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="#tools">Tools</a><a href="#why">Why QuickKit</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+    <a class="header-cta" href="#tools">Explore tools <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="status-dot"></span> FREE TOOLS. ZERO FRICTION.</div>
+      <h1>Small tools.<br><span class="gradient-text">Big time saved.</span></h1>
+      <p class="hero-copy">A focused collection of handy online tools for everyday calculations, writing, and quick decisions. Free to use, right in your browser.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#tools">Browse all tools <span>↓</span></a><span class="micro-note"><span class="check">✓</span> No account required</span></div>
+      <div class="hero-stats"><div><strong>09</strong><span>Useful tools</span></div><div><strong>100%</strong><span>Browser-based</span></div><div><strong>Free</strong><span>Always accessible</span></div></div>
+      <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+    </section>
+
+    <div class="ad-slot" aria-label="Advertisement space"><span class="ad-label">ADVERTISEMENT</span><span class="ad-copy">Your ad space can appear here after your site is approved.</span></div>
+
+    <section class="tools-section section-wrap" id="tools">
+      <div class="section-heading"><div><div class="eyebrow">THE TOOLBOX</div><h2>What do you need <span class="muted">to get done?</span></h2></div><div class="tool-count"><span id="visible-count">9</span> tools available</div></div>
+      <div class="search-wrap"><span class="search-icon">⌕</span><input id="tool-search" type="search" placeholder="Search tools (e.g. percentage, words…)" aria-label="Search tools"><kbd>⌘ K</kbd></div>
+      <div class="category-row" role="group" aria-label="Filter tools"><button class="filter-chip active" data-filter="all">All tools <span>9</span></button><button class="filter-chip" data-filter="calculators">Calculators</button><button class="filter-chip" data-filter="text">Text tools</button><button class="filter-chip" data-filter="generators">Generators</button></div>
+
+      <div class="tool-grid" id="tool-grid">
+        <article class="tool-card" data-category="calculators" data-search="age date birthday years months days calculator"><div class="card-top"><span class="tool-icon icon-violet">◷</span><span class="card-tag">CALCULATOR</span></div><h3>Age Calculator</h3><p>Find your exact age in years, months, and days.</p><button class="text-link" data-open="age">Open tool <span>↗</span></button></article>
+        <article class="tool-card" data-category="calculators" data-search="percentage percent increase decrease calculator"><div class="card-top"><span class="tool-icon icon-blue">％</span><span class="card-tag">CALCULATOR</span></div><h3>Percentage Calculator</h3><p>Calculate a percentage, change, or difference.</p><button class="text-link" data-open="percentage">Open tool <span>↗</span></button></article>
+        <article class="tool-card" data-category="calculators" data-search="bmi body mass index weight height health calculator"><div class="card-top"><span class="tool-icon icon-green">⌁</span><span class="card-tag">CALCULATOR</span></div><h3>BMI Calculator</h3><p>Estimate body mass index using height and weight.</p><button class="text-link" data-open="bmi">Open tool <span>↗</span></button></article>
+        <article class="tool-card" data-category="text" data-search="word counter character sentence paragraph reading time"><div class="card-top"><span class="tool-icon icon-orange">¶</span><span class="card-tag">TEXT TOOL</span></div><h3>Word Counter</h3><p>Count words, characters, sentences, and reading time.</p><button class="text-link" data-open="word">Open tool <span>↗</span></button></article>
+        <article class="tool-card" data-category="text" data-search="case converter uppercase lowercase title case text"><div class="card-top"><span class="tool-icon icon-pink">Aa</span><span class="card-tag">TEXT TOOL</span></div><h3>Case Converter</h3><p>Switch text between uppercase, lowercase, and title case.</p><button class="text-link" data-open="case">Open tool <span>↗</span></button></article>
+        <article class="tool-card" data-category="generators" data-search="password generator secure random password strength"><div class="card-top"><span class="tool-icon icon-yellow">✳</span><span class="card-tag">GENERATOR</span></div><h3>Password Generator</h3><p>Create a random password with your chosen options.</p><button class="text-link" data-open="password">Open tool <span>↗</span></button></article>
+        <article class="tool-card" data-category="calculators" data-search="tip bill split restaurant gratuity calculator"><div class="card-top"><span class="tool-icon icon-blue">↗</span><span class="card-tag">CALCULATOR</span></div><h3>Tip Calculator</h3><p>Work out a tip and split the total between people.</p><button class="text-link" data-open="tip">Open tool <span>↗</span></button></article>
+        <article class="tool-card" data-category="calculators" data-search="loan monthly payment interest repayment calculator"><div class="card-top"><span class="tool-icon icon-green">▤</span><span class="card-tag">CALCULATOR</span></div><h3>Loan Calculator</h3><p>Estimate monthly payments and total interest.</p><button class="text-link" data-open="loan">Open tool <span>↗</span></button></article>
+        <article class="tool-card" data-category="text" data-search="text cleaner remove extra spaces trim lines"><div class="card-top"><span class="tool-icon icon-violet">≋</span><span class="card-tag">TEXT TOOL</span></div><h3>Text Cleaner</h3><p>Remove extra spaces and tidy copied text instantly.</p><button class="text-link" data-open="clean">Open tool <span>↗</span></button></article>
+      </div>
+      <div class="no-results hidden" id="no-results">No tools match that search. Try another keyword.</div>
+    </section>
+
+    <section class="why-section section-wrap" id="why"><div class="why-copy"><div class="eyebrow">BUILT FOR EVERYDAY WORK</div><h2>Useful by design.<br><span class="muted">Simple by default.</span></h2><p>QuickKit keeps common tasks quick. Open a tool, enter what you need, and get an answer without creating an account or installing software.</p></div><div class="benefit-list"><div class="benefit"><span class="benefit-number">01</span><div><h3>Fast and lightweight</h3><p>Clean interface, responsive layout, and no bulky framework.</p></div><span class="benefit-check">✓</span></div><div class="benefit"><span class="benefit-number">02</span><div><h3>Privacy-minded</h3><p>These tools process inputs locally in your browser.</p></div><span class="benefit-check">✓</span></div><div class="benefit"><span class="benefit-number">03</span><div><h3>Works across devices</h3><p>Use it on desktop, tablet, or mobile.</p></div><span class="benefit-check">✓</span></div></div></section>
+    <div class="ad-slot ad-slot-bottom" aria-label="Advertisement space"><span class="ad-label">ADVERTISEMENT</span><span class="ad-copy">A second ad placement can go here after approval.</span></div>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">Q</span><span>quickkit<span class="brand-muted">.tools</span></span></a><p>Handy utilities for your everyday workflow.</p><div class="footer-links"><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a></div><span class="copyright">© <span id="year"></span> QuickKit Tools</span></footer>
+
+  <div class="modal-backdrop hidden" id="tool-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="tool-modal"><div class="modal-header"><div><div class="eyebrow">QUICKKIT TOOL</div><h2 id="modal-title">Tool</h2></div><button class="modal-close" id="modal-close" aria-label="Close tool">×</button></div><div id="modal-content"></div></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>

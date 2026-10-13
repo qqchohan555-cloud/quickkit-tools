@@ -1,0 +1,4 @@
+# AdSense has not been configured yet.
+# After approval, add the exact publisher record Google provides, e.g.:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Do not publish a made-up publisher ID.
